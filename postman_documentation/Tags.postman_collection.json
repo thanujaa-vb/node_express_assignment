@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "685de5d6-5cc8-4278-a809-8bea8b2628d5",
+		"name": "Tags",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "add/store tags",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/tags",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tags"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all tags details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/tags",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tags"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get based on id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/tags/6167ca7f3521e59bf4bd5b75",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tags",
+						"6167ca7f3521e59bf4bd5b75"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update based on id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/tags/6167ca7f3521e59bf4bd5b75",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tags",
+						"6167ca7f3521e59bf4bd5b75"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete based on id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/tags/6167ca7f3521e59bf4bd5b75",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tags",
+						"6167ca7f3521e59bf4bd5b75"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

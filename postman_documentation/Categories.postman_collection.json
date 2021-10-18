@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "90d26714-2e35-49be-8905-f83794948a27",
+		"name": "Categories",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "add/store categories",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/categories",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all categories details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/categories",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get category based on id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/categories/6167c034f6895244ad08fa0d",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"categories",
+						"6167c034f6895244ad08fa0d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update category based on id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/categories/6167c034f6895244ad08fa0d",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"categories",
+						"6167c034f6895244ad08fa0d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete based on id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/categories/6167c034f6895244ad08fa0d",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"categories",
+						"6167c034f6895244ad08fa0d"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
